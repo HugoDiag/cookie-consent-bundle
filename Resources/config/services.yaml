@@ -12,6 +12,7 @@ services:
             $cookieConsentPosition: '%ch_cookie_consent.position%'
             $cookieConsentSimplified: '%ch_cookie_consent.simplified%'
             $httpOnly: '%ch_cookie_consent.http_only%'
+            $secure: '%ch_cookie_consent.secure%'
 
     ConnectHolland\CookieConsentBundle\:
         resource: '../../'

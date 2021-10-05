@@ -50,6 +50,9 @@ class Configuration implements ConfigurationInterface
                 ->booleanNode('http_only')
                     ->defaultTrue()
                 ->end()
+                ->booleanNode('secure')
+                    ->defaultTrue()
+                ->end()
             ->end()
         ;
 

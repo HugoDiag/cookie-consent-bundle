@@ -52,6 +52,7 @@ ch_cookie_consent:
     position: 'top' # top, bottom
     simplified: false # When set to true the user can only deny or accept all cookies at once
     http_only: true # Sets HttpOnly on cookies
+    secure: true # Sets Secure on cookies
 ```
 
 ## Usage
